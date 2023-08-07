@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Deployment</title>
+</head>
+<body>
+    <h1>Model Deployment for iris data</h1>
+    <p>
+        Please, enter the following data:        
+    </p>
+
+    
+
+    <form action="/submit-page" method="POST">
+        <div>
+            <label for="slength"> sepal length (cm) : </label>
+             <input type="number" id= "slength" name="sepallength" placeholder="sepal length" required>
+        </div>
+
+        <div>
+            <label for="swidth"> sepal width (cm) : </label>
+            <input type="number" id="swidth" name="sepalwidth" placeholder="sepal width" required>
+        </div>
+
+        <div>
+            <label for="plength"> petal length (cm) : </label>
+            <input type="number" id="plength" name="petallength" placeholder="petal length" required>
+        </div>
+
+        <div>
+            <label for="pwidth"> petal width (cm) : </label>
+            <input type="number" id="pwidth" name="petalwidth" placeholder="petal width" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+
+    
+</body>
+</html>
